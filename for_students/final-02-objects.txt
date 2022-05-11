@@ -1,0 +1,27 @@
+(Required) Two kinds of objects created for this assignment:
+1. GyroSwing-0
+2. Gift-0
+
+(Required) Five other kinds of objects that you created (possibly in previous assignments):
+3. Car-0 - a car made of basic geometry from WB8
+4. Snowman-0 - a snowman made of basic geometry from WB6
+5. PyramidHouse-0 - a textured house made of basic geometry from WB8
+6. GableHouse-0 - a textured house made of basic geometry from WB8
+7. Quadcopter-0 - a quadcopter made of basic geometry from WB7
+
+(Optional) Backup Objects (more objects that you created, in case the ones above don't count):
+- Tree-0 - a textured christmas tree made of basic geometry made for this assignment
+- Plant-0 - a plant made of basic geometry from WB8
+
+At least on of each type of object:
+Building/structure: PyramidHouse-0 (described above)
+Vehicle: Car-0 (described above)
+Natural Element: Tree-0 (described above)
+
+Object loaded from a model file:
+Model: Person-0 - loaded from an OBJ file from the web, attribution below
+
+An object with a shader that you wrote:
+ShaderObj: Arc-0
+
+Other Objects that you would like to note:

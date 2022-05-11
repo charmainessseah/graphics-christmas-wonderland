@@ -1,0 +1,14 @@
+Three different behaviors that you made:
+1. GyroSwing-0 - swings and rotates simulataneously
+2. Quadcopter-0 - rotates in a circle
+3. Gift-0 - moves vertically and horizontally
+
+One behavior that is not simple:
+Not simple: Gift-0 (described above)
+
+Animated Articulated Figure:
+Articulated:  GyroSwing-0 (described above)
+
+Other Behaviors that you made: (backup in case something above doesn't count)
+- Car-0 - moves horizontally across the groundplane from right to left
+- Snowman-0 - rotates and arms are moving in sync upwards and downwards
