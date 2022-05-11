@@ -5,7 +5,7 @@ let giftCount = 0;
 export class Gift extends GrObject {
   constructor(params = {}) {
     let gift = new T.Group();
-    let giftTexture = new T.TextureLoader().load("./images/gift.jpg");
+    let giftTexture = new T.TextureLoader().load("./gift.jpg");
     let giftMat = new T.MeshBasicMaterial({
       map: giftTexture,
       side: T.DoubleSide,

@@ -80,7 +80,7 @@ export class GableHouse extends GrObject {
       new T.BufferAttribute(new Float32Array(uvs), uvNumComponents)
     );
 
-    let details = new T.TextureLoader().load("./images/shop-front2.jpg");
+    let details = new T.TextureLoader().load("./shop-front2.jpg");
     let material = new T.MeshStandardMaterial({
       color: "white",
       roughness: 0.75,

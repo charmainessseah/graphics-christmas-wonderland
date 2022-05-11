@@ -79,7 +79,7 @@ export class PyramidHouse extends GrObject {
       new T.BufferAttribute(new Float32Array(uvs), uvNumComponents)
     );
 
-    let details = new T.TextureLoader().load("./images/shop-front.jpg");
+    let details = new T.TextureLoader().load("./shop-front.jpg");
     let material = new T.MeshStandardMaterial({
       color: "white",
       roughness: 0.75,

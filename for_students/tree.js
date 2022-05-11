@@ -27,7 +27,7 @@ export class Tree extends GrObject {
     );
     tree.add(trunkMesh);
 
-    let t1 = new T.TextureLoader().load("./images/christmas-tree.jpg");
+    let t1 = new T.TextureLoader().load("./christmas-tree.jpg");
     let m1 = new T.MeshBasicMaterial({ map: t1 });
     // @@Snippet:end
     let topGeom = new T.ConeGeometry(2, 5, 64, 64);

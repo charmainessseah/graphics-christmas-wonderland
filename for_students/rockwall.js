@@ -4,7 +4,7 @@ import { GrObject } from "../libs/CS559-Framework/GrObject.js";
 
 export class RockWall extends GrObject {
   constructor() {
-    let wallTexture = new T.TextureLoader().load("./images/rock-wall.jpg");
+    let wallTexture = new T.TextureLoader().load("./rock-wall.jpg");
     const geometry = new T.PlaneGeometry(10, 5);
     let mat = new T.MeshBasicMaterial({ map: wallTexture });
     let wall = new T.Mesh(geometry, mat);

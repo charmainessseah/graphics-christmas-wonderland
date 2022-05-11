@@ -4,7 +4,7 @@ import { GrObject } from "../libs/CS559-Framework/GrObject.js";
 
 export class FakeSkyBox extends GrObject {
   constructor() {
-    let backgroundImage = new T.TextureLoader().load("./images/wallpaper.jpg");
+    let backgroundImage = new T.TextureLoader().load("./wallpaper.jpg");
     const material = new T.MeshBasicMaterial({
       color: "white",
       map: backgroundImage,
