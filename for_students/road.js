@@ -5,7 +5,7 @@ import { PlaneBufferGeometry } from "../libs/CS559-Three/build/three.module.js";
 
 export class Road extends GrObject {
   constructor() {
-    let roadTexture = new T.TextureLoader().load("./images/road.jpg");
+    let roadTexture = new T.TextureLoader().load("./road.jpg");
     const geometry = new T.PlaneGeometry(40, 5);
     let mat = new T.MeshBasicMaterial({ map: roadTexture, side: T.DoubleSide });
     let plane = new T.Mesh(geometry, mat);
