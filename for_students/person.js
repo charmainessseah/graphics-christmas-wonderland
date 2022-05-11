@@ -13,7 +13,7 @@ export class Person extends GrObject {
       color: params.color,
     });
 
-    loader.load("./objects/person.obj", function (object) {
+    loader.load("./person.obj", function (object) {
       object.position.set(params.x, params.y, params.z);
       object.rotation.y = params.rotation;
       object.scale.set(0.8, 0.8, 0.8);

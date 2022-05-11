@@ -196,7 +196,7 @@ world.add(fenceFrontRight);
 let road = new Road();
 world.add(road);
 
-let shaderMat = shaderMaterial("./shaders/arc.vs", "./shaders/arc.fs", {
+let shaderMat = shaderMaterial("./arc.vs", "./arc.fs", {
   side: T.DoubleSide,
   uniforms: {
     checks: { value: 4.0 },
